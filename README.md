@@ -44,3 +44,8 @@ Algorithm visualization illustrates how algorithms work in a graphical way. It m
 ### A star algorithm visualization
 
 ![Screenshot (559)](https://user-images.githubusercontent.com/98526168/174746374-5cfcab04-d52f-46e1-a500-95d86ced5e25.png)
+
+
+## Contributed by
+> Aman Tejwani
+> Pradnyesh Utpat
