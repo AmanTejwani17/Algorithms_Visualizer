@@ -1,5 +1,7 @@
 # Algorithms_Viusalizer
 
+Algorithm visualization illustrates how algorithms work in a graphical way. It mainly aims to simplify and deepen the understanding of algorithms operation.
+
 Type of algorithms  visualized:- 
  - searching 
  - sorting
