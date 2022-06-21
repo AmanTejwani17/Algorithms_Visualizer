@@ -48,6 +48,7 @@ Algorithm visualization illustrates how algorithms work in a graphical way. It m
 
 ## Contributed by
 ```
-[Aman Tejwani](https://pages.github.com/)
-[Pradnyesh Utpat](https://pages.github.com/)
+ 
+[Aman Tejwani]([https://pages.github.com/](https://github.com/AmanTejwani17))
+[Pradnyesh Utpat]([https://pages.github.com](https://github.com/PradnyeshUtpat)/)
 ```
