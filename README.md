@@ -15,15 +15,15 @@ Algorithm visualization illustrates how algorithms work in a graphical way. It m
  - merge sort
  - quick sort
 
-## Path finding algorithm
+> Path finding algorithm
  - Dijkstras
  - A star
 
-## Searching algorithm
+> Searching algorithm
  - linear search
  - binary search
  
-## Moduels used
+> Moduels used
 
 - tkinter
 - keyboard
