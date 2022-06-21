@@ -143,33 +143,32 @@ def start_alg():
     global l2
 
     if algo_menu.get()=='Bubble Sort':
-        bub_sort(data,drawdata,0.7)
+        bub_sort(data,drawdata,speedscale.get())
     
     elif algo_menu.get()=='Merge Sort':
-        merge_sort(data,0,len(data),drawdata,0.7)
+        merge_sort(data,0,len(data),drawdata,speedscale.get())
 
     elif algo_menu.get()=="Insertion Sort":
-        insertion_sort(data,drawdata,0.7)
+        insertion_sort(data,drawdata,speedscale.get())
 
     elif algo_menu.get()=="Quick sort":
-        quicksort(data,0,len(data)-1,drawdata,0.7)
+        quicksort(data,0,len(data)-1,drawdata,speedscale.get())
         drawdata(data,["#90EE90"  for x in range(len(data))])
 
     elif algo_menu.get()=="Selection Sort":
-        sel_sort(data,drawdata,0.7)
+        sel_sort(data,drawdata,speedscale.get())
 
     elif algo_menu.get()=="Linear search":
         if l2.get()=="":
             tkinter.messagebox.showinfo(title="visualizer", message="no input given")
         else:
-            Linear_search(data,drawdata,0.7,int(l2.get()))
+            Linear_search(data,drawdata,speedscale.get(),int(l2.get()))
     
     elif algo_menu.get()=="Binary search":
         if l2.get()=="":
             tkinter.messagebox.showinfo(title="visualizer", message="no input given")
         else:
-            binarySearch (data, 0, len(data)-1, int(l2.get()),drawdata,0.7)
-
+            binarySearch (data, 0, len(data)-1, int(l2.get()),drawdata,speedscale.get())
 
 def rig(e):
     generate()
@@ -214,7 +213,7 @@ generate()
 #pathfinding part
 
 #  dimensions for grid
-global_row=25
+global_row=23
 global_column=40
 
 # configuring grid 
